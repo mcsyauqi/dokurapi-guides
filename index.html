@@ -78,6 +78,10 @@ footer{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid #8888;font-siz
 
 <p>Untuk dokumen yang memakai e-meterai, ada satu jebakan teknis: mengompres ulang PDF yang sudah dibubuhi e-meterai bisa membuat tanda digitalnya tidak lagi terbaca sah. Urutan yang aman adalah kompres dulu dokumennya sampai ukuran yang diminta, baru bubuhkan e-meterai di akhir. Kalau berkas sudah ber-e-meterai dan masih terlalu besar, lebih aman membuat ulang dari dokumen sumber daripada mengompres hasil akhirnya.</p>
 
+<p>Karena kelompok ini paling beragam, cara terbaik adalah membuat tabel kecil sendiri begitu pengumuman instansi keluar. Tulis setiap dokumen yang diminta di satu kolom, lalu di kolom berikutnya catat format, batas ukuran, perlu tanda tangan atau tidak, perlu meterai atau tidak, dan status persiapannya. Tabel seperti ini membuat kamu langsung tahu dokumen mana yang masih kurang, terutama yang bergantung pada pihak lain seperti surat keterangan dari kantor lama atau kampus. Dokumen yang bergantung pada orang lain sebaiknya diurus paling awal, karena kamu tidak bisa mengendalikan kecepatan mereka.</p>
+
+<p>Perhatikan juga apakah instansi menyediakan format surat sendiri. Kalau ada, pakai format itu apa adanya dan jangan mengubah susunan kalimatnya, karena panitia verifikasi biasanya mencocokkan dokumen dengan format yang mereka terbitkan.</p>
+
 <h2>5. Ukuran file: cara membaca batas di kolom unggah</h2>
 
 <p>Batas ukuran berlaku per kolom unggah, bukan satu angka untuk semua dokumen. Selain KTP yang sudah terlihat jelas di halaman akun, batas untuk ijazah, transkrip, dan dokumen lain biasanya tertulis di samping tombol unggah setelah kamu login, atau di pengumuman instansi. Ringkasan contoh batas dari tahun sebelumnya dan cara menghitung target yang aman ada di panduan <a href="https://dokurapi.com/id/articles/sscasn-upload-requirements.html">ukuran file SSCASN dan target aman per dokumen</a> di Dokurapi.</p>
@@ -85,6 +89,12 @@ footer{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid #8888;font-siz
 <p>Satu hal yang perlu dipahami: angka "KB" di komputer belum tentu dihitung dengan cara yang sama oleh portal. Windows menampilkan ukuran dengan pembagi 1.024, sementara hitungan desimal memakai 1.000. Berkas yang tampak "196 KB" di Windows bisa saja sudah lebih dari 200.000 byte. Cara paling aman adalah membidik sedikit di bawah batas, misalnya sekitar 5 sampai 6 persen lebih kecil, lalu memeriksa ukuran dalam byte, bukan hanya angka KB yang dibulatkan.</p>
 
 <p>Kalau kamu belum terbiasa, gunakan alat yang menampilkan ukuran persis dalam byte dan jumlah halaman PDF. <a href="https://dokurapi.com/id/cek-ukuran-pdf/">Alat cek ukuran PDF Dokurapi</a> menampilkan keduanya tanpa perlu mengunggah berkas ke server, karena pemrosesannya berjalan di browser.</p>
+
+<p>Kalau berkas PDF tetap terlalu besar setelah dikompres, biasanya penyebabnya ada di cara dokumen itu dibuat, bukan di alat kompresnya. PDF hasil foto ponsel beresolusi sangat tinggi menyimpan setiap halaman sebagai gambar besar, sehingga ukurannya bisa beberapa megabita per halaman. Solusi yang lebih bersih adalah memotret ulang atau memindai ulang dengan resolusi yang lebih wajar, lalu membuat PDF dari gambar yang sudah diperkecil. Langkah ini sering memberi hasil yang lebih tajam daripada memaksa satu PDF besar turun ke ukuran kecil.</p>
+
+<p>Untuk pas foto dan KTP dalam format JPG, perhatikan juga dimensi gambar dalam piksel. Foto ponsel modern bisa berukuran ribuan piksel di tiap sisi, jauh lebih besar dari yang dibutuhkan untuk dibaca di layar panitia. Memperkecil dimensi lebih dulu, lalu mengompres kualitasnya, biasanya menghasilkan berkas di bawah 200 KB tanpa membuat wajah atau tulisan menjadi kabur. Sebaliknya, menurunkan kualitas saja tanpa memperkecil dimensi cenderung memunculkan kotak-kotak kasar di sekitar huruf.</p>
+
+<p>Satu kebiasaan kecil yang membantu: simpan versi asli setiap dokumen di folder terpisah dan jangan pernah menimpanya. Semua kompresi dan penggabungan dilakukan pada salinan. Kalau hasil akhir ternyata kurang bagus, kamu tinggal mengulang dari versi asli tanpa perlu memindai ulang dokumen fisik.</p>
 
 <h2>6. Urutan kerja menyiapkan berkas dalam satu sore</h2>
 
@@ -114,6 +124,24 @@ footer{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid #8888;font-siz
 </ul>
 
 <p>Kalau satu poin saja belum yakin, perbaiki dulu. Waktu pendaftaran CPNS biasanya terbatas dan portal cenderung padat menjelang batas akhir, jadi unggah lebih awal dengan berkas yang sudah diperiksa jauh lebih aman daripada mengunggah di hari terakhir.</p>
+
+<h2>8. Kesalahan berkas yang paling sering terjadi</h2>
+
+<p>Kesalahan berkas yang bisa dicegah umumnya jatuh ke beberapa jenis yang sama. Yang pertama adalah salah kolom: berkas transkrip masuk ke kolom ijazah, atau surat pernyataan masuk ke kolom surat lamaran. Ini biasanya terjadi karena nama berkas di laptop tidak jelas, misalnya <code>scan001.pdf</code> dan <code>scan002.pdf</code>. Penamaan berkas yang tegas seperti di langkah sebelumnya hampir sepenuhnya menghilangkan masalah ini.</p>
+
+<p>Jenis kedua adalah dokumen yang tidak terbaca. Pelamar sering mengompres berkas berulang kali sampai ukurannya masuk, tanpa sadar bahwa setiap kompresi ulang menurunkan ketajaman huruf. Hasilnya, ukuran berkas lolos tetapi isi dokumen sulit dibaca panitia. Lebih baik mulai lagi dari pindaian asli dengan pengaturan kompresi yang lebih tepat daripada menumpuk kompresi di atas berkas yang sudah dikompres.</p>
+
+<p>Jenis ketiga adalah ketidakcocokan data. Nama di ijazah memakai ejaan berbeda dari KTP, atau tanggal lahir di transkrip berbeda satu digit dengan ijazah. Hal semacam ini tidak bisa diperbaiki dengan alat apa pun, karena masalahnya ada di dokumen sumber. Kalau kamu menemukannya, cari tahu ke instansi penerbit dokumen atau ke helpdesk resmi bagaimana cara menanganinya sebelum masa pendaftaran dibuka, bukan saat pendaftaran sudah berjalan.</p>
+
+<p>Jenis keempat adalah berkas yang tidak lengkap halamannya. Transkrip lima halaman yang hanya terunggah empat halaman, atau ijazah yang hanya sisi depan padahal sisi belakang memuat legalisasi. Kebiasaan sederhana untuk mencegahnya adalah selalu membuka PDF final dan menghitung halaman sebelum diunggah. Kebiasaan ini butuh kurang dari satu menit per berkas, tetapi menyelamatkan seluruh lamaran.</p>
+
+<h2>9. Jadwal persiapan mundur dari tanggal penutupan</h2>
+
+<p>Cara paling efektif menghindari kepanikan adalah menyusun jadwal mundur dari tanggal penutupan pendaftaran. Anggap saja kamu punya dua minggu dari pengumuman sampai penutupan. Di minggu pertama, fokus pada hal yang tidak bisa dipercepat: mengecek kecocokan data KTP dan ijazah, mencari dokumen yang tercecer, mengurus legalisasi bila diminta, dan memastikan surat keterangan dari pihak lain sudah di tangan. Urusan yang melibatkan kantor atau orang lain hampir selalu memakan waktu lebih lama dari perkiraan.</p>
+
+<p>Di awal minggu kedua, kerjakan bagian digital: memindai, menggabungkan, mengompres, dan memeriksa keterbacaan. Bagian ini bisa selesai dalam satu sore kalau dokumen fisiknya sudah lengkap. Sisakan dua sampai tiga hari terakhir sebagai cadangan, bukan sebagai waktu kerja utama. Menjelang penutupan, akses ke portal cenderung lebih lambat karena banyak pelamar mengunggah bersamaan, sehingga hari terakhir sebaiknya hanya dipakai untuk memastikan semuanya sudah tersimpan dengan benar.</p>
+
+<p>Setelah semua berkas terunggah, simpan bukti pendaftaran dan cetak atau unduh kartu informasi akun sesuai petunjuk di portal. Catat juga NIK dan kata sandi akun di tempat yang aman, karena portal menegaskan bahwa registrasi hanya bisa dilakukan satu kali per NIK. Kehilangan akses ke akun di tengah seleksi akan jauh lebih merepotkan daripada menyimpan catatan kecil sejak awal.</p>
 
 <h2>Kenapa memproses berkas di browser lebih tenang</h2>
 
